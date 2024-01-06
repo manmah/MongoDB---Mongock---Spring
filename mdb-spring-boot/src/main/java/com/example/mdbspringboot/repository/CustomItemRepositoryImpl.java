@@ -27,7 +27,6 @@ public class CustomItemRepositoryImpl implements CustomItemRepository {
 			System.out.println("No documents updated");
 		else
 			System.out.println(result.getModifiedCount() + " document(s) updated..");
-
 	}
 
 }
